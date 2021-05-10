@@ -1,0 +1,127 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color:  #a9a9a9;
+}
+
+.fontbg {
+   margin-bottom: 10px;
+   display: flex;
+   flex-flow: row wrap;
+   background-color: rgba(0,255,0,0.5);
+   padding: 1%;
+}
+
+.h1design	{
+     font-size: 1.5rem;
+     text-align: center;
+     flex: 2;
+     text-transform: uppercase;
+     font-size: 4rem;
+     text-shadow: 2px 2px 10px black;
+     font-family: 'Cinzel Decorative', cursive;
+     color: #2a2a2a;
+ }
+
+.h2design	{
+     font-size: 1.5rem;
+     text-align: center;
+     flex: 2;
+     text-transform: uppercase;
+     font-size: 2rem;
+     text-shadow: 2px 2px 10px black;
+     font-family: 'Cinzel Decorative', cursive;
+     color: #2a2a2a;
+ }
+
+.navbg {
+  background-color: rgba(0,255,0,0.5);
+   padding: 1%;
+}
+
+
+
+div.imgbg img {
+width: 10%;
+ height: auto;
+ float: right;
+}
+
+nav ul {
+   padding: 0;
+   list-style-type: none;
+   flex: 2;
+   display: flex;
+}
+
+nav li {
+   display: inline;
+   text-align: center;
+   flex: 1;
+}
+
+nav a, nav span {
+       display: inline-block;
+       font-size: 2rem;
+       height: 3rem;
+       line-height: 1.7;
+       text-transform: uppercase;
+       text-decoration: none;
+       color: black;
+   }
+
+main 	{
+   display: flex;
+}
+
+article {
+   flex: 4;
+}
+
+aside 	{
+   flex: 1;
+   margin-left: 10px;
+   padding: 1%;
+}
+
+aside img 	{
+     max-width: 40%;
+ }
+
